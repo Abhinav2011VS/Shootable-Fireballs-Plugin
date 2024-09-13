@@ -1,0 +1,5 @@
+# Default explosion power for fireballs
+explosion-power: 1
+
+# Whether explosions from fireballs break blocks
+explosion-break-blocks: false

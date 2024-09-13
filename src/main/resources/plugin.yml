@@ -1,0 +1,6 @@
+name: Shootable Fireballs
+version: '1.0'
+main: net.abhinav.sf.ShootableFireballs
+api-version: '1.21'
+load: STARTUP
+authors: [ Abhinav VS ]
