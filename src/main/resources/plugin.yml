@@ -1,6 +1,14 @@
-name: Shootable Fireballs
-version: '1.0'
+name: ShootableFireballs
+version: '2.0'
 main: net.abhinav.sf.ShootableFireballs
 api-version: '1.21'
 load: STARTUP
 authors: [ Abhinav VS ]
+commands:
+  fireballconfig:
+    description: Configure Shootable Fireball settings
+    usage: /<command> <setting> <value>
+    permissions:
+      shootablefireballs.config:
+        description: Allows users to configure fireball settings
+        default: op

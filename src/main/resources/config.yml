@@ -1,5 +1,23 @@
-# Default explosion power for fireballs
-explosion-power: 1
+# Configuration for Shootable Fireballs
 
-# Whether explosions from fireballs break blocks
-explosion-break-blocks: false
+fireball:
+  # Speed of the fireball (1.0 is normal speed)
+  speed: 1.0
+
+  # Explosion radius (blocks affected)
+  explosion_radius: 3
+
+  # Explosion strength (higher = bigger explosion)
+  explosion_strength: 4
+
+  # Whether fireballs can break blocks (true/false)
+  can_break_blocks: true
+
+  # Damage dealt by the fireball explosion to entities (0 = no damage)
+  damage: 10
+
+  # Cooldown in seconds between shots (not implemented here)
+  cooldown: 0.5
+
+  # Lifespan of fireballs in seconds before they explode if they haven't hit anything
+  lifespan: 30
